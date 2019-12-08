@@ -13,4 +13,9 @@ node {
     sh 'npm test'
 }
    }
+    stage('code test') { 
+       nodejs('nodejs13.3') {
+    sh 'npm sonar:sonar'
+}
+   }
 }
