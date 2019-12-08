@@ -13,4 +13,4 @@ node {
     sh 'npm test'
 }
    }
-  
+}
